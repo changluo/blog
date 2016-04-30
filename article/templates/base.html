@@ -2,14 +2,26 @@
 <html lang="en">
 	<style type="text/css">
 		body{color:#efd;background:#453;padding:0 5em;margin:0;}
-		h1{padding:2em 1em;background: #675}
-		h2{color:#bf8;border-top:1px dotted #fff;margin-top: 2em;}
-		p{margin: 1em 0}
+		h1{padding:2em 1em;background: #675;font-size: 200%}
+		h2{color:#bf8;border-top:1px dotted #fff;margin-top: 2em;font-size: 150%}
+		p{margin: 1em 0 ;font-size: 100%}
 	</style>
 
 	<body>
-		<h1>ChangL Blog	</h1>
-		<h3>Veni,vidi,vici</h3>
+		<h1>ChangL Blog<br>
+			<font size='3'>
+			Veni,vidi,vici
+			</font>
+		</h1>
+		<h2>
+			<font size="6">
+				Contact:
+			</font>
+			<br>
+			<p style="text-indent: 4px">
+			<strong>Phone:972-974-1692<br>
+			E-mail:cluo@mail.smu.edu</strong>
+		</h2>
 		{% block content %}
 		{% endblock %}
 	</body>
